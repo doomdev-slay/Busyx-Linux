@@ -29,8 +29,3 @@ When downloaded run:
 The OS will start in QEMU immediately. 
 Problem: You must be in the source code directory.
 
-
-
-# Todo: 
-
-Clean the mess
