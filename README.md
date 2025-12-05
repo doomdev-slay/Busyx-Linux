@@ -1,6 +1,9 @@
 
 # Running Busyx
 
+
+WARNING: Download the source code from releases please! Otherwise you will not have all the files!
+
 You can get the latest linux bzImage here: https://kernel.org/
 
 To compile new version of initramfs run:
