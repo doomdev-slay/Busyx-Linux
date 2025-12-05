@@ -18,6 +18,18 @@ To run Busyx in QEMU simply use the test script
       ./test
 
 
+# Arch package
+
+The prebuilt package for pacman can be seen in releases.
+When downloaded run:
+
+    pacman -U busyx-0.1-1-x86_64.pkg.tar.zst
+    busyx
+
+The OS will start in QEMU immediately. 
+
+
+
 # Todo: 
 
 Clean the mess
