@@ -13,3 +13,8 @@ To compile new version of initramfs run:
 To run Busyx in QEMU simply use the test script
 
       ./test
+
+
+# Todo: 
+
+Clean the mess
