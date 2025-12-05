@@ -1,0 +1,40 @@
+#!/bin/sh
+
+# Mount essential filesystems
+mount -t proc proc /proc
+mount -t sysfs sys /sys
+mount -t devtmpfs dev /dev
+clear
+echo "=================================="
+echo "   Welcome to Busyx Linux OS   "
+echo "=================================="
+
+mkdir home
+
+# Ask user where to save virtual disk
+#read -p "Enter the path to save your virtual disk (.vdsk): " VDISK_PATH
+
+# Create directory if it doesn't exist
+#DIR=$(dirname "$VDISK_PATH")
+#mkdir -p "$DIR"
+
+# Ask user for disk size
+#read -p "Enter virtual disk size in MB (default 64): " DISK_SIZE
+#DISK_SIZE=${DISK_SIZE:-64}
+
+#echo "Creating virtual disk of $DISK_SIZE MB at $VDISK_PATH..."
+#dd if=/dev/zero of="$VDISK_PATH" bs=1M count="$DISK_SIZE"
+
+#echo "Formatting virtual disk..."
+#mkfs.ext4 "$VDISK_PATH"
+
+# Mount virtual disk as root filesystem
+#mkdir -p /mnt/root
+#mount -o loop "$VDISK_PATH" /mnt/root
+
+echo ""
+echo ""
+echo ""
+
+cd home
+/bin/sh
