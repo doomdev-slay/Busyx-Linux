@@ -1,7 +1,7 @@
 
 # Running Busyx
 
-You will need to get linux kernel bzImage from here: https://kernel.org/
+You can get the latest linux bzImage here: https://kernel.org/
 
 To compile new version of initramfs run:
 
